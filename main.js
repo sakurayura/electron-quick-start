@@ -4,7 +4,7 @@ const {app, BrowserWindow} = require('electron') //const定义的变量不可以
 const path = require('path') //导入 path 包，该包为操作文件路径提供了实用的功能
 
 function createWindow () {  //定义一个方法用来创建一个带有预加载脚本的新的浏览器窗口
-  // Create the browser window.
+  // Create the browser window.主进程使用BrowserWindow实例创建页面
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
