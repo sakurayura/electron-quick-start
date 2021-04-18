@@ -14,7 +14,7 @@
     "tutorial",
     "demo"
   ],
-  "author": "name,main和version字段必须要有.如果没有main默认index.js",
+  "author": "author和description字段对于打包来说是必要的,否则运行npm run make命令时会报错.没有main默认index.js",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^12.0.4"
