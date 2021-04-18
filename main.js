@@ -1,4 +1,5 @@
-// 这个main.js脚本就是主进程。
+// 环境:nodejs和npm。然后在项目文件夹下输入npm install安装electron。启动输入npm start
+// 这个main.js脚本就是主进程。在项目文件夹下
 // 为了管理应用程序的生命周期事件以及创建和控制浏览器窗口,从electron包导入了app和BrowserWindow模块
 // ES6中module成为标准,export导出接口,import引入模块.但是node中任采用CommonJS规范,使用require引入模块
 // app:electron中控制应用生命周期的模块。Brow...:创建原生浏览器窗口的模块。
