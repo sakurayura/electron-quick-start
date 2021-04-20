@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-quick-start不能有中文大写和空格！！",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
